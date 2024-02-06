@@ -1,0 +1,48 @@
+header{
+    background-image: url(img/NG-en-20231218-popsignuptwoweeks-perspective_alpha_website_small.jpg), linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5));
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-blend-mode: overlay;
+   border-bottom: 10px solid gray;
+}
+video {
+    width: 100% !important;
+}
+
+
+
+
+
+
+
+
+@media screen  and (max-width: 767px){
+     div.but{
+        margin-top: -40px !important;
+    }
+    div .image{
+        width: 75% ;
+    }
+     input .email{
+        width: 75% ;
+        display: flex;
+        flex-direction: column;
+    }
+    div .save{
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (min-width:769px) and (max-width: 992px){
+    .net{
+        width: 1000px;
+    display: block;
+    margin-left: -400px;
+    }
+}
+.pico:hover{
+background-color: blue;
+color: blue;
+}
